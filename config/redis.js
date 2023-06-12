@@ -6,7 +6,7 @@ redis.on("connect",async()=>{
     console.log("connected to redis")
 })
 
-red.on("error",(err)=>{
+redis.on("error",(err)=>{
     console.log(err.message);
 })
 
